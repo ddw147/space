@@ -5,7 +5,7 @@
         Finding Falcon
       </div>
       <v-spacer></v-spacer>
-      <v-btn text>reset</v-btn> |
+
       <v-btn text href="https://geektrust.in" target="blank"
         >Geektrust Home</v-btn
       >
@@ -13,6 +13,13 @@
     <v-main>
       <router-view> </router-view>
     </v-main>
+    <v-footer>
+      <v-row class="text-center">
+        <v-col>
+          coding problem- www.geektrust.in/finding-falcone
+        </v-col>
+      </v-row>
+    </v-footer>
   </v-app>
 </template>
 
